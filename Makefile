@@ -27,7 +27,7 @@ LIB+=-lcairo
 LIB+=-lgobject-2.0
 LIB+=-lglib-2.0
 
-CFLAGS:=-pthread
+CFLAGS:=-pthread -export-dynamic -rdynamic
 
 all:
 	gcc -o $(TARGET) gtkTest.c $(CFLAGS) $(INC) $(LIB) 
