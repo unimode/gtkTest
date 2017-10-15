@@ -41,6 +41,20 @@
             <property name="y">46</property>
           </packing>
         </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">button</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">90</property>
+            <property name="y">241</property>
+          </packing>
+        </child>
       </object>
     </child>
   </object>
